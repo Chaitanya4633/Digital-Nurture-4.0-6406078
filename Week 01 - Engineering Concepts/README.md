@@ -14,7 +14,7 @@ This week focused on strengthening **core Java concepts**, **design principles**
   - Lazy Initialization
   - Controlled instance creation via `getInstance()`
   - Instance identity verified using `hashCode()`
-- **Folder**: `DesignPatterns and Principles/SingletonPatternExample`
+- **Folder**: `DesignPatterns and Principles/Singleton Pattern Example`
 
 ### 2️ . Factory Method Pattern – Document Creator
 - **Goal**: Abstract object creation logic using factory classes.
@@ -22,7 +22,16 @@ This week focused on strengthening **core Java concepts**, **design principles**
   - Interface-based design
   - Separate factories for Word, PDF, Excel
   - Easily extendable for new types
-- **Folder**: `DesignPatterns and Principles/FactoryMethodPatternExample`
+- **Folder**: `DesignPatterns and Principles/FactoryMethod Pattern Example`
+
+### 3. Builder Pattern – Meal Builder
+- **Goal**: Simplify the construction of complex objects step by step without directly instantiating the object.
+- **Highlights**:
+  - Separation of object construction and representation
+  - Flexible object creation with optional parameters
+  - Builder class to encapsulate construction logic
+  - Improves readability and maintainability
+- **Folder**: `DesignPatterns and Principles/Builder Pattern Example`
 
 ---
 
