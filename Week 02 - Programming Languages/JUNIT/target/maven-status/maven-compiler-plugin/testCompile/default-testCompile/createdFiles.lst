@@ -1,0 +1,10 @@
+com\example\JUnit\Exercise01\TestClass.class
+com\example\Mockito\Exercise02\MyService.class
+com\example\Mockito\Exercise01\MyServiceTest.class
+com\example\Mockito\Exercise02\ExternalApi.class
+com\example\Mockito\Exercise01\MyService.class
+com\example\JUnit\Exercise03\AssertionsTest.class
+com\example\JUnit\Exercise04\CalculatorTest.class
+com\example\Mockito\Exercise02\MyServiceTest.class
+com\example\Mockito\Exercise01\ExternalApi.class
+com\example\SLF4J_LOGGING\Exercise01\LoggingExample.class
