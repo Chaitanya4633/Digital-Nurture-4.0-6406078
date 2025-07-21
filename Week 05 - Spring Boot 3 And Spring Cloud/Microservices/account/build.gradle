@@ -1,6 +1,7 @@
-plugins {
+plugins 
+{
     id 'java'
-    id 'org.springframework.boot' version '2.7.18' // ✅ Downgraded for Eureka compatibility
+    id 'org.springframework.boot' version '2.7.18' 
     id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
@@ -8,29 +9,34 @@ group = 'com.cognizant'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
-repositories {
+repositories 
+{
     mavenCentral()
 }
 
-dependencyManagement {
-    imports {
-        mavenBom "org.springframework.cloud:spring-cloud-dependencies:2021.0.8" // ✅ Matches Spring Boot 2.7.18
+dependencyManagement 
+{
+    imports 
+    {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:2021.0.8" 
     }
 }
 
-dependencies {
+dependencies
+{
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
-
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-tasks.named('test') {
+tasks.named('test') 
+{
     useJUnitPlatform()
 }
 
-springBoot {
-    mainClass = 'com.cognizant.account.AccountApplication'
+springBoot
+{
+    mainClass='com.cognizant.account.AccountApplication'
 }
